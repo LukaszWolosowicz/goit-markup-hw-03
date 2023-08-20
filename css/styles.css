@@ -61,6 +61,8 @@ ul {
   width: 1440;
   height: 600;
   flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .main-theme-box h1 {
