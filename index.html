@@ -20,160 +20,189 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container nav-box section">
-        <a href="./index.html"
-          ><span class="first-half-logo">Web</span
-          ><span href="./index.html" class="second-half-logo">Studio</span></a
-        >
-        <nav class="nav-list">
-          <ul>
-            <li><a href="./index.html">Studio</a></li>
-            <li><a href="./portfolio.html">Portfolio</a></li>
-            <li><a href="#">Contacts</a></li>
-          </ul>
+    <!--start header-->
+    <div class="container">
+      <header class="top-line header-padding">
+        <div class="headerlogo">
+          <a class="logo" href="/">
+            <span class="web">web</span><span class="studio">studio</span>
+          </a>
+        </div>
+        <nav>
+          <menu class="menu">
+            <li class="body-medium">
+              <a class="navi" href="index.html"
+                ><span class="big-first-letter">s</span>tudio</a
+              >
+            </li>
+            <li class="body-medium">
+              <a class="navi" href="portfolio.html"
+                ><span class="big-first-letter">p</span>ortfolio</a
+              >
+            </li>
+            <li class="body-medium">
+              <span class="big-first-letter">c</span>ontacts
+            </li>
+          </menu>
         </nav>
-        <ul class="contact-list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
-        </ul>
+        <address class="address-style">
+          <a class="contacts" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="contacts" href="tel:tel:+110001111111"
+            >+11 (000) 111-11-11</a
+          >
+        </address>
+      </header>
+    </div>
+    <!--end header-->
+
+    <!--start hero-->
+    <main class="main-padding">
+      <div>
+        <div class="hero">
+          <h1 class="nob nob-style">Effective Solutions Your Business</h1>
+          <div class="btn-style">
+            <button class="btn-in-hero btn-padding" type="button">
+              Order Service
+            </button>
+          </div>
+        </div>
       </div>
-    </header>
-    <main>
-      <section style="background: var(--navyblue, #2e2f42)">
-        <div class="container">
-          <h1 class="main-theme-box">Effective solutions for Your Business</h1>
-          <button type="button" class="main-button">Order Service</button>
+      <!--end hero-->
+      !--start article SPDT-->
+      <div class="container">
+        <div class="wawd">
+          <article>
+            <ul class="menu-ul">
+              <li class="width">
+                <h3 class="article strategy">Strategy</h3>
+                <p class="description des-style">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </li>
+              <li class="width">
+                <h3 class="article punctuality">Punctuality</h3>
+                <p class="description des-style">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </li>
+              <li class="width">
+                <h3 class="article diligence">Diligence</h3>
+                <p class="description des-style">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </li>
+              <li class="width">
+                <h3 class="article technologies">Technologies</h3>
+                <p class="description des-style">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </li>
+            </ul>
+          </article>
         </div>
-      </section>
-      <section class="solution-list">
+      </div>
+      <!--end article SPDT-->
+      <!--start article OT-->
+      <div class="ot">
         <div class="container">
-          <ul>
-            <li>
-              <h3 class="topic">Strategy</h3>
-              <p class="text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li>
-              <h3 class="topic">Punctuality</h3>
-              <p class="text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li>
-              <h3 class="topic">Diligence</h3>
-              <p class="text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li>
-              <h3 class="topic">Technologies</h3>
-              <p class="text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
+          <article class="team">
+            <h2 class="new-article">Our Team</h2>
+            <ul class="menu-ul-ot">
+              <!--Mark start li-->
+              <li class="width-ot card-style">
+                <figure>
+                  <img
+                    src="./images/teamcard1.jpg"
+                    alt="men with smile, short cut and beard"
+                    width="264"
+                    height="260"
+                  />
+                  <figcaption class="card-content">
+                    <h3 class="article"><strong>Mark Guerrero</strong></h3>
+                    <p class="description">Product Designer</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <!--Mark end li-->
+
+              <!--Tom start li-->
+              <li class="width-ot card-style">
+                <figure>
+                  <img
+                    src="./images/teamcard2.jpg"
+                    alt="men smile with teeth and
+                  look to horizon"
+                    width="264"
+                    height="260"
+                  />
+                  <figcaption class="card-content">
+                    <h3 class="article"><strong>Tom Ford</strong></h3>
+                    <p class="description">Frontend Developer</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <!--Tom end li-->
+
+              <!--Camila start li-->
+              <li class="width-ot card-style">
+                <figure>
+                  <img
+                    src="./images/teamcard3.jpg"
+                    alt="preety woman in red sweater and dark long hair"
+                    width="264"
+                    height="260"
+                  />
+                  <figcaption class="card-content">
+                    <h3 class="article"><strong>Camila Garcia</strong></h3>
+                    <p class="description">Marketing</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <!--Camila end li-->
+
+              <!--Daniel start li-->
+              <li class="width-ot card-style">
+                <figure>
+                  <img
+                    src="./images/teamcard4.jpg"
+                    alt="men with smile, a week's stubble and white t-shirt"
+                    width="264"
+                    height="260"
+                  />
+                  <figcaption class="card-content">
+                    <h3 class="article"><strong>Daniel Wilson</strong></h3>
+                    <p class="description">UI Designer</p>
+                  </figcaption>
+                </figure>
+              </li>
+              <!--Daniel end li-->
+            </ul>
+          </article>
         </div>
-      </section>
-      <section class="doing-list section">
-        <div class="container">
-          <h2 class="topic3">What Are We Doing</h2>
-          <ul>
-            <li>
-              <img
-                src="./images/img1.jpg"
-                width="360"
-                height="300"
-                alt="comoputer's monitor with some diagrams"
-              />
-            </li>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/img2.jpg"
-                width="360"
-                height="300"
-                alt="Smarphone with any aplitaction"
-              />
-            </li>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/img3.jpg"
-                width="360"
-                height="300"
-                alt="Somebody's holing smartphone and watching photos"
-              />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="team" style="background: var(--cloud, #f4f4fd)">
-        <div class="container">
-          <h2 class="topic3">Our Team</h2>
-          <ul>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/TeamCard1.jpg"
-                width="264"
-                height="260"
-                alt="smiling, brunette, medium-age man with full beard in blue shirt"
-              />
-              <h3 class="topic">Mark Guerrero</h3>
-              <p class="text">Product Designer</p>
-            </li>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/TeamCard2.jpg"
-                width="264"
-                height="260"
-                alt="smiling, dark-blonde-short hair young man in blue shirt  "
-              />
-              <h3 class="topic">Tom Ford</h3>
-              <p class="text">Front Developer</p>
-            </li>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/TeamCard3.jpg"
-                width="264"
-                height="260"
-                alt="smiling, long-hair brunette youg women in pink sweater"
-              />
-              <h3 class="topic">Camila Garcia</h3>
-              <p class="text">Marketing</p>
-            </li>
-            <li>
-              <img
-                src="../goit-markup-hw-02/images/TeamCard4.jpg"
-                width="264"
-                height="260"
-                alt="smiling, short-brunette hair man with short beard and wearing grey sweater"
-              />
-              <h3>Daniel Wilson</h3>
-              <p>UI Designer</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      </div>
     </main>
   </body>
-  <footer>
-    <section class="footer-box">
-      <div class="container">
-        <a href="./index.html"
-          ><span class="first-half-logo">Web</span
-          ><span href="./index.html" class="second-half-logo-footer"
-            >Studio</span
-          ></a
-        >
-        <p>
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+  <footer class="footer-bg">
+    <div class="container">
+      <!--logo webstudio-->
+      <div class="logofooter-style">
+        <a class="logo studio" href="/">
+          <span class="web">web</span><span class="studiowh">studio</span>
+        </a>
+        <div class="footertext-style">
+          <p class="footertext">
+            <span class="big-first-letter">i</span>ncrease the flow of customers
+            and sales for your business with digital marketing & growth
+            solutions.
+          </p>
+        </div>
       </div>
-    </section>
+    </div>
   </footer>
 </html>
