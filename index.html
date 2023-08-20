@@ -11,10 +11,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
-      <div class="nav-box">
+      <div class="container nav-box section">
         <a href="./index.html"
           ><span class="first-half-logo">Web</span
           ><span href="./index.html" class="second-half-logo">Studio</span></a
@@ -34,129 +41,139 @@
     </header>
     <main>
       <section style="background: var(--navyblue, #2e2f42)">
-        <h1 class="main-theme-box">Effective solutions for Your Business</h1>
-        <button type="button" class="main-button">Order Service</button>
+        <div class="container">
+          <h1 class="main-theme-box">Effective solutions for Your Business</h1>
+          <button type="button" class="main-button">Order Service</button>
+        </div>
       </section>
       <section class="solution-list">
-        <ul>
-          <li>
-            <h3 class="topic">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="topic">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="topic">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="topic">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <ul>
+            <li>
+              <h3 class="topic">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="topic">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="topic">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="topic">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="doing-list">
-        <h2 class="topic3">What Are We Doing</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/img1.jpg"
-              width="360"
-              height="300"
-              alt="comoputer's monitor with some diagrams"
-            />
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/img2.jpg"
-              width="360"
-              height="300"
-              alt="Smarphone with any aplitaction"
-            />
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/img3.jpg"
-              width="360"
-              height="300"
-              alt="Somebody's holing smartphone and watching photos"
-            />
-          </li>
-        </ul>
+      <section class="doing-list section">
+        <div class="container">
+          <h2 class="topic3">What Are We Doing</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/img1.jpg"
+                width="360"
+                height="300"
+                alt="comoputer's monitor with some diagrams"
+              />
+            </li>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/img2.jpg"
+                width="360"
+                height="300"
+                alt="Smarphone with any aplitaction"
+              />
+            </li>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/img3.jpg"
+                width="360"
+                height="300"
+                alt="Somebody's holing smartphone and watching photos"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team" style="background: var(--cloud, #f4f4fd)">
-        <h2 class="topic3">Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/TeamCard1.jpg"
-              width="264"
-              height="260"
-              alt="smiling, brunette, medium-age man with full beard in blue shirt"
-            />
-            <h3 class="topic">Mark Guerrero</h3>
-            <p class="text">Product Designer</p>
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/TeamCard2.jpg"
-              width="264"
-              height="260"
-              alt="smiling, dark-blonde-short hair young man in blue shirt  "
-            />
-            <h3 class="topic">Tom Ford</h3>
-            <p class="text">Front Developer</p>
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/TeamCard3.jpg"
-              width="264"
-              height="260"
-              alt="smiling, long-hair brunette youg women in pink sweater"
-            />
-            <h3 class="topic">Camila Garcia</h3>
-            <p class="text">Marketing</p>
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-02/images/TeamCard4.jpg"
-              width="264"
-              height="260"
-              alt="smiling, short-brunette hair man with short beard and wearing grey sweater"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 class="topic3">Our Team</h2>
+          <ul>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/TeamCard1.jpg"
+                width="264"
+                height="260"
+                alt="smiling, brunette, medium-age man with full beard in blue shirt"
+              />
+              <h3 class="topic">Mark Guerrero</h3>
+              <p class="text">Product Designer</p>
+            </li>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/TeamCard2.jpg"
+                width="264"
+                height="260"
+                alt="smiling, dark-blonde-short hair young man in blue shirt  "
+              />
+              <h3 class="topic">Tom Ford</h3>
+              <p class="text">Front Developer</p>
+            </li>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/TeamCard3.jpg"
+                width="264"
+                height="260"
+                alt="smiling, long-hair brunette youg women in pink sweater"
+              />
+              <h3 class="topic">Camila Garcia</h3>
+              <p class="text">Marketing</p>
+            </li>
+            <li>
+              <img
+                src="../goit-markup-hw-02/images/TeamCard4.jpg"
+                width="264"
+                height="260"
+                alt="smiling, short-brunette hair man with short beard and wearing grey sweater"
+              />
+              <h3>Daniel Wilson</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
   </body>
   <footer>
-    <div class="footer-box">
-      <a href="./index.html"
-        ><span class="first-half-logo">Web</span
-        ><span href="./index.html" class="second-half-logo-footer"
-          >Studio</span
-        ></a
-      >
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </div>
+    <section class="footer-box">
+      <div class="container">
+        <a href="./index.html"
+          ><span class="first-half-logo">Web</span
+          ><span href="./index.html" class="second-half-logo-footer"
+            >Studio</span
+          ></a
+        >
+        <p>
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
+    </section>
   </footer>
 </html>
