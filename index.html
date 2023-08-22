@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,44 +18,42 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--start header-->
 
-    <section class="container">
-      <header class="top-line header-padding">
-        <div class="headerlogo">
-          <a class="logo" href="/">
-            <span class="web">web</span><span class="studio">studio</span>
-          </a>
-        </div>
-        <nav>
-          <ul class="menu">
-            <li class="body-medium">
-              <a class="navi" href="index.html"
-                ><span class="big-first-letter">s</span>tudio</a
-              >
-            </li>
-            <li class="body-medium">
-              <a class="navi" href="portfolio.html"
-                ><span class="big-first-letter">p</span>ortfolio</a
-              >
-            </li>
-            <li class="body-medium" href="#.html">
-              <span class="big-first-letter">c</span>ontacts
-            </li>
-          </ul>
-        </nav>
-        <address class="address-style">
-          <a class="contacts" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="contacts" href="tel:tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </address>
-      </header>
-    </section>
+    <header class="container top-line header-padding">
+      <div class="headerlogo">
+        <a class="logo" href="index.html">
+          <span class="web">web</span><span class="studio">studio</span>
+        </a>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li class="body-medium">
+            <a class="navi" href="index.html"
+              ><span class="big-first-letter">s</span>tudio</a
+            >
+          </li>
+          <li class="body-medium">
+            <a class="navi" href="portfolio.html"
+              ><span class="big-first-letter">p</span>ortfolio</a
+            >
+          </li>
+          <li class="body-medium" href="#0">
+            <span class="big-first-letter">c</span>ontacts
+          </li>
+        </ul>
+      </nav>
+      <address class="address-style">
+        <a class="contacts" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <a class="contacts" href="tel:tel:+110001111111">+11 (000) 111-11-11</a>
+      </address>
+    </header>
+
     <!--end header-->
 
     <!--start hero-->
@@ -72,8 +70,39 @@
       </section>
       <!--end hero-->
       <!--start article SPDT-->
-      <section class="container">
+      <section class="threephotos">
         <h2 class="new-article">What are we doing</h2>
+        <div class="container">
+          <ul class="menu-ul-threephotos">
+            <li>
+              <img
+                src="./images/img1.jpg"
+                alt="mcbook computer with table and graph"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img2.jpg"
+                alt="smartfone with multiple screen by WhatsApp"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img3.jpg"
+                alt="smartphone in hand and computer in the background"
+                width="360"
+                height="300"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container">
         <div class="wawd">
           <article>
             <ul class="menu-ul">
@@ -194,7 +223,7 @@
     <div class="container">
       <!--logo webstudio-->
       <div class="logofooter-style">
-        <a class="logo studio" href="/">
+        <a class="logo studio" href="index.html">
           <span class="web">web</span><span class="studiowh">studio</span>
         </a>
         <div class="footertext-style">
